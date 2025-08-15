@@ -1,0 +1,167 @@
+:root {
+    --rosa-blossom: #ff66b2;
+    --azul-burbujas: #66ccff;
+    --verde-buttercup: #66ff66;
+    --amarillo-mojo: #ffcc00;
+    --rojo-him: #ff3333;
+    --naranja-fuzzy: #ff9933;
+    --verde-amoeba: #66ff99;
+    --gris-claro: #e0e0e0;
+    --gris-medio: #b0b0b0;
+    --celeste-poderes: #a0d8ff;
+    --borde-celeste: #66b3ff;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seccion-hero {
+    background-color: #000000;
+    padding: 3rem 0;
+    border-bottom: 3px solid var(--rosa-blossom);
+}
+
+.titulo-principal {
+    color: var(--rosa-blossom);
+    text-shadow: 0 0 10px rgba(255, 102, 178, 0.5);
+    font-weight: 800;
+}
+
+.subtitulo {
+    color: var(--amarillo-mojo);
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+}
+
+.titulo-seccion {
+    border-left: 5px solid;
+    padding-left: 15px;
+    margin: 30px 0 20px;
+    color: #ffffff;
+}
+
+.bienvenida-titulo {
+    border-left-color: var(--gris-medio);
+}
+
+.chicas-titulo {
+    border-left-color: var(--verde-buttercup);
+}
+
+.poderes-titulo {
+    border-left-color: var(--borde-celeste);
+}
+
+.villanos-titulo {
+    border-left-color: var(--rojo-him);
+}
+
+.info-titulo {
+    border-left-color: #cc99ff;
+}
+
+.galeria-titulo {
+    border-left-color: var(--amarillo-mojo);
+}
+
+.fondo-gris {
+    background-color: var(--gris-claro);
+    color: #333333;
+}
+
+.borde-celeste {
+    border: 1px solid var(--borde-celeste);
+    background-color: rgba(160, 216, 255, 0.1);
+}
+
+.tarjeta-personaje {
+    border-radius: 15px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #111111;
+}
+
+.tarjeta-personaje:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-blossom {
+    border-bottom: 3px solid var(--rosa-blossom);
+}
+
+.tarjeta-burbujas {
+    border-bottom: 3px solid var(--azul-burbujas);
+}
+
+.tarjeta-buttercup {
+    border-bottom: 3px solid var(--verde-buttercup);
+}
+
+.color-blossom {
+    color: var(--rosa-blossom);
+}
+
+.color-burbujas {
+    color: var(--azul-burbujas);
+}
+
+.color-buttercup {
+    color: var(--verde-buttercup);
+}
+
+.color-mojo {
+    color: var(--amarillo-mojo);
+}
+
+.color-him {
+    color: var(--rojo-him);
+}
+
+.color-fuzzy {
+    color: var(--naranja-fuzzy);
+}
+
+.color-amoeba {
+    color: var(--verde-amoeba);
+}
+
+.tarjeta-villano {
+    background-color: #111111;
+    border-left: 3px solid var(--rojo-him);
+    margin-bottom: 15px;
+}
+
+.item-poder {
+    background-color: rgba(160, 216, 255, 0.2);
+    margin-bottom: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: var(--celeste-poderes);
+}
+
+.placeholder-imagen {
+    background-color: #222222;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555555;
+}
+
+.pie-pagina {
+    background-color: #000000;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 3px solid var(--rosa-blossom);
+}
+
+.titulo-pie {
+    color: var(--rosa-blossom);
+}
+
+.subtitulo-pie {
+    color: var(--azul-burbujas);
+}
